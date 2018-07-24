@@ -1,7 +1,7 @@
 package first;
 
 /**
- *  代理不会飞行的鸭子吗，（飞行动作都是由代理类完成）
+ *  委托   不用翅膀的鸭子，（飞行动作都是由委托类完成）
  */
 public class FlyNoWings implements FlyBehavior {
     @Override

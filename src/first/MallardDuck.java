@@ -4,7 +4,7 @@ package first;
  *具体的某个鸭子了
  */
 public class MallardDuck extends Duck {
-    public MallardDuck(){
+    public MallardDuck(){//初始化就完成委托类..
         flyBehavior = new FlyWithWings();
     }
 
