@@ -2,6 +2,8 @@ package first;
 
 /**
  * 委托  会飞的鸭子，真实的鸭子（飞行动作都是由委托完成）
+ *
+ * 理解：这是其中一个算法族，用翅膀飞
  */
 public class FlyWithWings implements FlyBehavior {
     @Override
