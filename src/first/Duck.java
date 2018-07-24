@@ -16,5 +16,13 @@ public abstract class Duck {
     public void performFly(){  //鸭子的飞行方式是变化的....各种飞....翅膀、挂火箭..
         flyBehavior.fly();
     }
+
+
+    //动态设置鸭子的飞行行为
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+
 }
 
