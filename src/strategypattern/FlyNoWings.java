@@ -1,4 +1,4 @@
-package first;
+package strategypattern;
 
 /**
  *  委托   不会飞的假鸭子，（飞行动作都是由委托类完成）

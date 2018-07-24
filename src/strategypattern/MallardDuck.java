@@ -1,4 +1,4 @@
-package first;
+package strategypattern;
 
 /**
  *具体的某个鸭子了

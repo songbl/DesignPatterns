@@ -1,4 +1,4 @@
-package first;
+package strategypattern;
 
 /**
  * 飞行接口（不同鸭子类型，不同的飞行方式）

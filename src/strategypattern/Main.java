@@ -1,4 +1,4 @@
-package first;
+package strategypattern;
 
 /**
  *  策略模式定义了算法族，分别封装起来，让他们之间可以相互替换，

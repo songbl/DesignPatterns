@@ -1,4 +1,4 @@
-package first;
+package strategypattern;
 
 /**
  *    分开变与不变的部分
