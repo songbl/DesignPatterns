@@ -5,7 +5,7 @@ package strategypattern;
  */
 public class MallardDuck extends Duck {
     public MallardDuck(){//初始化就完成委托类..
-        flyBehavior = new FlyWithWings();
+        flyBehavior = new FlyWithWings();//多态呢，运行时候，执行FlyWithWings的方法。
     }
 
     @Override

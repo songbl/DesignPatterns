@@ -9,20 +9,13 @@ public class Main  {
     {
             Duck mallardDuck = new MallardDuck();
             mallardDuck.display();
-            mallardDuck.performFly();
+            mallardDuck.performFly();//多了一层委托
             System.out.println("===================================");
             //测试二，动态设置飞行
              Duck  duckModel = new ModelDuck();
              duckModel.performFly();
              duckModel.setFlyBehavior(new FlyRocketPower());//可以动态的替换
              duckModel.performFly();
-
-
-
-
-
-
-
 
 
     }
