@@ -16,8 +16,6 @@ public class Main  {
              duckModel.performFly();
              duckModel.setFlyBehavior(new FlyRocketPower());//可以动态的替换
              duckModel.performFly();
-
-
     }
 
 

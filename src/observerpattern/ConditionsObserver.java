@@ -13,7 +13,7 @@ public class ConditionsObserver implements Observer,DisplayElement{
 
     public ConditionsObserver(Subject dataSubject){
         this.dataSubject = dataSubject;
-        dataSubject.registerObserver(this);
+        dataSubject.registerObserver(this);//可以理解为，绑定
     }
     @Override
     public void update(float temperature, float hunidity, float pressure) {
