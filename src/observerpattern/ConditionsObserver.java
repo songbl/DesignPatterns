@@ -15,6 +15,17 @@ public class ConditionsObserver implements Observer,DisplayElement{
         this.dataSubject = dataSubject;
         dataSubject.registerObserver(this);//可以理解为，绑定
     }
+
+    //todo me
+    public ConditionsObserver(float temperature, float hunidity, float pressure){
+        this.humidity = hunidity;
+        this.temperature = temperature ;
+        this.pressure = pressure ;
+    }
+    //todo me
+    public ConditionsObserver(){
+
+    }
     @Override
     public void update(float temperature, float hunidity, float pressure) {
         this.humidity = hunidity;
