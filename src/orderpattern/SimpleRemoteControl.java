@@ -1,5 +1,9 @@
 package orderpattern;
 
+
+/**
+ *  命令模式的客户
+ */
 public class SimpleRemoteControl {
 
     Command simpeCommand;//有一个插槽持有命令，这个命令控制一个装置
