@@ -6,7 +6,7 @@ package decorationpattern;
 public class HouseBlend extends Beverage {
 
     public HouseBlend(){
-        description = "星巴滋含有";
+        description = "星巴滋咖啡";
     }
     @Override
     public double cost() {
