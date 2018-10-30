@@ -1,8 +1,8 @@
 package decorationpattern;
 
-public class Espresso extends Beverage {
+public class EspressoCoffee extends Beverage {
 
-    public Espresso(){
+    public EspressoCoffee(){
         description = "浓缩咖啡...";
     }
     @Override

@@ -31,6 +31,6 @@ public class DineMenu {
         }
     }
     public Iterator createIterator(){//从菜单数组创建一个
-        return new DinerMenuIterator(menuItems);
+        return new DinerMenuIterator(menuItems);            //某个具体的迭代器，传入了要迭代的集合。
     }
 }

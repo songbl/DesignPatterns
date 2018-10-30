@@ -29,7 +29,7 @@ public class ParamBuilder {
 
         public Builder url(String url) {
             this.url = url;
-            return this;
+            return this;  //当前类的对象
         }
 
         public Builder username(String username) {

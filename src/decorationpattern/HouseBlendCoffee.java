@@ -3,9 +3,9 @@ package decorationpattern;
 /**
  *  具体组件
  */
-public class HouseBlend extends Beverage {
+public class HouseBlendCoffee extends Beverage {
 
-    public HouseBlend(){
+    public HouseBlendCoffee(){
         description = "星巴滋咖啡";
     }
     @Override

@@ -7,7 +7,7 @@ package factorypattern;
  *  此方法制造产品。创建者通常会包含依赖于抽象产品的代码，
  *  而这些抽象产品由子类制造，创建者不需要真的知道创造哪个具体产品
  */
-public abstract class PizzaStoreNew {
+public abstract class PizzaStoreNew {//生产Pizza的店铺啊。。顶级（客户。。）
     public  Pizza orderPizza(String type){
         Pizza pizza ;
         pizza = createPizza(type);
@@ -25,6 +25,7 @@ public abstract class PizzaStoreNew {
      *  ，如orderPizza）和实际创建的产品的代码分割开。
      */
     //实例化披萨的责任被移到一个“方法”中，此方法就如同一个“工厂”
-    abstract Pizza createPizza(String type);
+    abstract Pizza
+    createPizza(String type);
 
 }

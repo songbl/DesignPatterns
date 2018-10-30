@@ -14,6 +14,8 @@ public class Main  {
             //测试二，动态设置飞行
              Duck  duckModel = new ModelDuck();
              duckModel.performFly();
+
+             //这样就是组合呢（我理解。在运行时决定，如果继承，编译时静态决定）
              duckModel.setFlyBehavior(new FlyRocketPower());//可以动态的替换
              duckModel.performFly();
     }

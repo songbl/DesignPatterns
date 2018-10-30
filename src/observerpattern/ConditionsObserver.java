@@ -13,7 +13,11 @@ public class ConditionsObserver implements Observer,DisplayElement{
 
     public ConditionsObserver(Subject dataSubject){
         this.dataSubject = dataSubject;
-        dataSubject.registerObserver(this);//可以理解为，绑定
+        dataSubject.registerObserver(this);//可以理解为，绑定（当前类对象）
+    }
+
+    public void removeObserver(){
+        dataSubject.removeObserver(this);
     }
 
     //todo me
