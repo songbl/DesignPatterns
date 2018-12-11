@@ -25,7 +25,6 @@ public abstract class PizzaStoreNew {//生产Pizza的店铺啊。。顶级（客
      *  ，如orderPizza）和实际创建的产品的代码分割开。
      */
     //实例化披萨的责任被移到一个“方法”中，此方法就如同一个“工厂”
-    abstract Pizza
-    createPizza(String type);
+    abstract Pizza createPizza(String type);
 
 }
