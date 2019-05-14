@@ -29,10 +29,10 @@ public abstract class CaffeineBeverage {
     abstract void addCondiments();
 
     void boilWater(){//相同的方法，直接实现好了就ok；
-        System.out.println("烧开水...");
+        System.out.println("父类默认的实现 - 烧开水...");
     }
     void pourInCup(){
-        System.out.println("倒进杯子里面...");
+        System.out.println("父类默认的实现 - 倒进杯子里面...");
     }
 
     /**

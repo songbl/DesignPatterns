@@ -8,6 +8,7 @@ public class DateTest {
         String pat1="yyyy-MM-dd HH:mm:ss.SSS";//准备第一个模板，从字符串中提取日期数字
         String pat2="yyyy随意填MM-dd识别的:匹配字母的 HH点mm分ss秒SSS毫秒";//准备第二个模板，从字符串中提取日期数字
 
+
         //必须要根据模板实例化对象
         SimpleDateFormat sdf1=new SimpleDateFormat(pat1);//实例化模板对象
         SimpleDateFormat sdf2=new SimpleDateFormat(pat2);//实例化模板对象
@@ -22,6 +23,7 @@ public class DateTest {
         System.out.println("日期转为字符串"+sdf1.format(d));
         System.out.println(sdf2.format(d));
     }
+
 
 
 }

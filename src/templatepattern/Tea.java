@@ -6,6 +6,11 @@ package templatepattern;
 public class Tea extends CaffeineBeverage {
 
     @Override
+    void boilWater() {
+        System.out.println("复写默认的实现，烧开纯净水");
+    }
+
+    @Override
     void brew() {
         System.out.println("热水冲泡茶");
     }
